@@ -1,0 +1,46 @@
+body {
+  padding-top: 100px;
+  text-align: center;
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+  font-family: 'Anton';
+  font-weight: 100;
+}
+
+h1 {
+  color: #2477ab;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  font-family: 'Anton';
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 80px;
+}
+
+#clockdiv > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: #2477ab;
+  display: inline-block;
+}
+
+#clockdiv div > span {
+  padding: 15px;
+  border-radius: 3px;
+  background: #6b8bb6;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 24px;
+}
+/*# sourceMappingURL=styles.css.map */

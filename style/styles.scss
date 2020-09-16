@@ -1,0 +1,53 @@
+$color1: #ff7e67;
+$color2:#2477ab;
+@mixin center{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+body{
+    padding-top:100px;
+    text-align: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Anton';
+  font-weight: 100;
+}
+
+h1{
+  color: $color2;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+    margin-top:6%;
+    margin-bottom:6%;
+    font-family: 'Anton';
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 80px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background:$color2;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #6b8bb6;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 24px;
+}
